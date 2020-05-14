@@ -2,7 +2,7 @@
 
 FROM windows
 
-RUN --name = AWS-CLI -it amazon/aws-cli
+RUN -it amazon/aws-cli
 
 RUN -it amazon/aws-cli --version
 
