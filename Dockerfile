@@ -1,6 +1,6 @@
 # INSTALL JDK 1.8.0_131
 
-FROM  mcr.microsoft.com/windows/servercore
+FROM  microsoft/dotnet-framework:4.7.2-runtime
 
 RUN -it amazon/aws-cli
 
